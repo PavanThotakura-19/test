@@ -2,17 +2,23 @@
 <html>
 <head>
 <style>
-.table{
-    outline-style: dotted;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
-#tool{
-     padding:25px;
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
 </style>
 <title>My Marks</title>
 </head>
 <body>
 <h1 align="center">Previous Semester Marks<h1>
-<table class="table" id="tool" border="3" align="center" style="border-collapse:collapse">
+<table>
 <th>Subject Name</th><th align="right">Grade Points</th>
 <tr><td>MMS</td><td align="right">9</td></tr>
 <tr><td>TD</td><td align="right">9</td></tr>
